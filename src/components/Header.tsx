@@ -28,9 +28,9 @@ const Header = () => {
         </div>
 
         <div className={`absolute xl:hidden top-24 left-0 w-full bg-gray-300 flex flex-col items-center gap-1 font-semibold text-lg transform transition-transform ${isMenuOpen ? 'opacity-100':'opacity-0'}`}>
-            <li className="list-none w-full text-center p-4 hover:bg-gray-400 hover:text-black transition-all cursor-pointer">Home</li>
-            <li className="list-none w-full text-center p-4 hover:bg-gray-400 hover:text-black transition-all cursor-pointer">About</li>
-            <li className="list-none w-full text-center p-4 hover:bg-gray-400 hover:text-black transition-all cursor-pointer">Team</li>
+            <li className="list-none w-full text-center p-4 hover:bg-gray-400 hover:text-black transition-all cursor-pointer" onClick={() => {scrollToSection('home');setIsMenuOpen(!isMenuOpen)}}>Home</li>
+            <li className="list-none w-full text-center p-4 hover:bg-gray-400 hover:text-black transition-all cursor-pointer" onClick={() => {scrollToSection('about');setIsMenuOpen(!isMenuOpen)}}>About</li>
+            <li className="list-none w-full text-center p-4 hover:bg-gray-400 hover:text-black transition-all cursor-pointer" onClick={() => {scrollToSection('team');setIsMenuOpen(!isMenuOpen)}}>Team</li>
         </div>
       </header>
   )

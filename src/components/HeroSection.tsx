@@ -3,7 +3,7 @@ import UploadOpts from "./UploadOpts"
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center gap-40  md:px-20 py-30 bg-gray-50">
+    <section id='home'className="flex flex-col md:flex-row justify-between items-center gap-40  md:px-20 py-50 bg-gray-50">
       <div className="w-4/5 md:w-1/2 space-y-6">
         <h1 className="text-4xl md:text-5xl font-normal text-gray-800 font-mono">
           KTU Result Analyser

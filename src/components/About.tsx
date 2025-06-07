@@ -1,9 +1,9 @@
 
 const About = () => {
   return (
-    <section className=" flex flex-col bg-gray-300 py-5 px-15 md:px-20 gap-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-normal text-gray-800 font-mono">The Story Behind</h1>
-        <p className="font-mono py-10">
+    <section id="about" className="min-h-screen flex flex-col justify-center bg-gray-300 py-5 px-15  gap-6 text-center">
+        <h1 className="text-4xl md:text-5xl font-normal underline -underline-offset-auto text-gray-800 font-mono">The Story Behind</h1>
+        <p className="font-mono pt-6 pb-10 text-pretty">
             KTU Result Analyser was created to support faculty members in quickly processing student result PDFs. Manually extracting data is tedious — this tool simplifies the process by converting PDFs to Excel and providing clear, structured data for analysis.
             Fast, accurate, and designed to save your time.
         </p>
@@ -11,4 +11,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

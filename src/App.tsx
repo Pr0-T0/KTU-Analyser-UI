@@ -2,6 +2,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import Team from "./components/Team";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main className="flex-grow">
         <HeroSection/>
         <About/>
+        <Team/>
       </main>
       <Footer/>
     </div>

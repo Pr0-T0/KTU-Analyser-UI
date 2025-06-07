@@ -3,12 +3,12 @@ import UploadOpts from "./UploadOpts"
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center gap-40  md:px-20 py-16 bg-gray-50">
+    <section className="flex flex-col md:flex-row justify-between items-center gap-40  md:px-20 py-30 bg-gray-50">
       <div className="w-4/5 md:w-1/2 space-y-6">
-        <h1 className="text-4xl md:text-5xl font-normal text-gray-800">
+        <h1 className="text-4xl md:text-5xl font-normal text-gray-800 font-mono">
           KTU Result Analyser
         </h1>
-        <p className="text-gray-600 text-lg leading-relaxed">
+        <p className="text-gray-600 text-lg leading-relaxed font-mono">
           Lets you analyze KTU results with detailed insights, effective credit tracking, and interactive graphs - all through a simple web interface.
         </p>
       </div>

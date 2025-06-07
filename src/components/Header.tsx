@@ -12,7 +12,7 @@ const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className=' fixed flex w-full justify-between items-center bg-white text-black py-2 md:px-20 '>
+    <header className=' fixed flex w-full justify-between items-center bg-white text-black py-2 px-20 '>
         <a href="#">
           <h1 className='font-bold text-lg hover:scale-105 transition-all'>KTU Result Analyser</h1>
         </a>
